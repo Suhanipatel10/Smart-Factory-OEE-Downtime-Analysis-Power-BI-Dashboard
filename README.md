@@ -9,9 +9,13 @@ The Smart Factory Efficiency Dashboard leverages predictive maintenance data to 
 This project incorporates multiple layers of modern data analytics tooling:
 
 📊 Power BI Desktop – Core platform for interactive dashboard design and data modeling.
+
 ⚙️ Power Query (M) – Used for ETL: reshaping, cleaning, and preparing time-series and categorical data.
+
 🧠 DAX (Data Analysis Expressions) – Custom measures and KPIs for availability, performance, and quality analysis, including dynamic OEE computation.
+
 🧱 Data Modeling – All data fields were logically structured and relationally integrated to support drill-downs by downtime reason, torque anomalies, and machine output.
+
 📁 .pbix File Format – The primary file used for development, easily shareable for future enhancements or stakeholder review.
 
 **4. Data Source**
